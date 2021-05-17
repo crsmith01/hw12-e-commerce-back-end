@@ -19,7 +19,8 @@ Because this application won’t be deployed, you’ll also need to provide a li
 7. [License](#License)
 
 
-## Technologies Used
+## Technologies Used 
+****UPDATE****
 ```
 1. JavaScript
 2. Express.js
@@ -28,7 +29,8 @@ Because this application won’t be deployed, you’ll also need to provide a li
 5. MySQL
 6. Console.table
 7. Figlet
-
+8. Sequelize
+```
 
 ## User Story
 
@@ -41,7 +43,7 @@ SO THAT my company can compete with other e-commerce companies
 ## Acceptance Criteria
 
 ```md
-GIVEN a functional Express.js API
+GIVEN a functional Express.js API:
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
 THEN I am able to connect to a database using Sequelize
 WHEN I enter schema and seed commands
