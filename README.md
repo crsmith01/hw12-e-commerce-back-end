@@ -68,13 +68,13 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 ![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia Core.
+Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia Core or Postman.
 
 The following video demonstrates the application's functionality':
-![Screencastify](https://drive.google.com/file/d/1WNhBRdA3fixn8SrAo-d4TCafZxpcUDwY/view)
+![Screencastify](____)
 
 The following video demonstrates the application's functionality':
-![GitHub Link](https://github.com/crsmith01/hw11-employee-tracker)
+![GitHub Link](https://github.com/crsmith01/hw12-e-commerce-back-end)
 
 ## Installation
 To install necessary dependencies, run the following in your command-line:
