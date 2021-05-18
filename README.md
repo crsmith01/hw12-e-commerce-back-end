@@ -22,14 +22,13 @@ Because this application won’t be deployed, you’ll also need to provide a li
 ## Technologies Used 
 ****UPDATE****
 ```
-1. JavaScript
-2. Express.js
-3. Node.js
-4. Inquirer.js
-5. MySQL
-6. Console.table
-7. Figlet
-8. Sequelize
+1. [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+2. [Express.js](https://www.npmjs.com/package/express)
+3. [Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+4. [MySQL](https://dev.mysql.com/doc/)
+5. [dotenv](https://www.npmjs.com/package/dotenv)
+6. [Sequelize](https://www.npmjs.com/package/sequelize) 
+7. [MySQL2](https://www.npmjs.com/package/mysql2)
 ```
 
 ## User Story
@@ -57,6 +56,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Mock-Up
+***UPDATE***
 
 The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
 
