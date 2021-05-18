@@ -42,8 +42,10 @@ router.post('/', async (req, res) => {
   // create a new category
   try {
     const categoryData = await Category.create({
+      // using what's in the Cateogry model
       id: req.body.id,
       category_name: req.body.category_name,
+      // or do I just need req.body
      } res.status(200).json(categoryData)
   } catch (Err) {
     res.status(400).json(err);
@@ -58,7 +60,7 @@ router.put('/:id', async (req, res) => {
       where: {
         id: req.params.id
       }
-    )};
+    )}
     if (!categoryData) {
       res.status(404).json({ message: 'No category found with this id!' });
       return;

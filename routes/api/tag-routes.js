@@ -39,6 +39,21 @@ router.get('/:id', async (req, res) => {
 
 router.post('/', async (req, res) => {
   // create a new tag
+  Tag.create({
+    tag_name: req.body.tag_name
+  }, where: {
+    id: req.params.id
+  })
+  .then(tagData => {
+    if (!tagData) {
+      res.status(404).json({ message: 'No tag found with this id!' });
+      return;
+    } res.json(tagData);      
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json.err;
+  });
 });
 
 router.put('/:id', (req, res) => {
