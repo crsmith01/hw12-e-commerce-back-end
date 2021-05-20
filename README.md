@@ -18,7 +18,6 @@ My task was to build the back end for an e-commerce site by modifying starter co
 
 
 ## Technologies Used 
-****UPDATE****
 ```
 1. [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 2. [Express.js](https://www.npmjs.com/package/express)
@@ -27,6 +26,7 @@ My task was to build the back end for an e-commerce site by modifying starter co
 5. [dotenv](https://www.npmjs.com/package/dotenv)
 6. [Sequelize](https://www.npmjs.com/package/sequelize) 
 7. [MySQL2](https://www.npmjs.com/package/mysql2)
+8. [Postman](https://www.postman.com/)
 ```
 
 ## User Story
