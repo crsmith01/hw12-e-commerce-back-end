@@ -11,7 +11,6 @@ My task was to build the back end for an e-commerce site by modifying starter co
 2. [User Story](#User-Story)
 3. [Mock Up](#Mock-Up)
 4. [Installation](#Installation)
-5. [Tests](#Tests)
 5. [Usage](#Usage)
 6. [Contact](#Contact)
 7. [License](#License)
@@ -26,7 +25,7 @@ My task was to build the back end for an e-commerce site by modifying starter co
 5. [dotenv](https://www.npmjs.com/package/dotenv)
 6. [Sequelize](https://www.npmjs.com/package/sequelize) 
 7. [MySQL2](https://www.npmjs.com/package/mysql2)
-8. [Postman](https://www.postman.com/)
+8. [Insomnia Core](https://insomnia.rest/)
 ```
 
 ## User Story
@@ -54,34 +53,17 @@ THEN I am able to successfully create, update, and delete data in my database.
 ```
 
 ## Mock-Up
-***UPDATE***
+The following videos demonstrate the application's functionality ((GET, POST, PUT, and DELETE routes to return the related information for categories,  products, and tags being tested in Insomnia Core):
+![Screencastify part 1](https://drive.google.com/file/d/1pP0tFmdiYcwxasEkMsEufnfXzIDGT_Ml/view)
+![Screencastify part 1](https://drive.google.com/file/d/1hEnVgGYu7ap5Bmr36-hY_QSjZvjvDhqG/view)
 
-The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
-
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia Core:
-
-![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
-
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia Core:
-
-![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
-
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia Core or Postman.
-
-The following video demonstrates the application's functionality':
-![Screencastify](____)
-
-The following video demonstrates the application's functionality':
+The following links to the GitHub repository for this app:
 ![GitHub Link](https://github.com/crsmith01/hw12-e-commerce-back-end)
 
 ## Installation
 To install necessary dependencies, run the following in your command-line:
-********UPDATE**********
-
-## Tests
-To run tests, enter the following in your command-line: npm run test
+npm install
 
 ## Usage
 To start enter: node employee-tracker.js
